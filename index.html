@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TradeHub</title>
+  <!-- IMPORT CSS -->
+  <link rel="stylesheet" href="./CSS/index.css">
+  <!-- IMPORT BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header__top container-fluid d-flex justify-content-between align-items-center py-2">
+      <div class="header__left">
+        <a class="me-4 text-white" href="tel:0773605741"><i class="fas fa-phone-alt me-2"></i>0773605741</a>
+        <a class="me-4 text-white" href="mailto:anhtp.22it@vku.udn.vn"><i
+            class="far fa-envelope me-2"></i>anhtp.22it@vku.udn.vn</a>
+      </div>
+      <div class="header__right">
+        <div class="header__account">
+          <a href="#" class="header__signup">Sign up</a>
+          <a href="#" class="header__login">Log in</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <nav class="navInstruction navbar navbar-expand-lg container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav fw-bold ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#carousel">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">FEATURES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#marketplace">MARKETPLACE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#logistic">LOGISTIC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- CAROUSEL -->
+  <section class="carousel" id="carousel">
+    <img src="./img/carousel.jpg" alt="CAROUSEL">
+    <div class="carousel-text">
+      <h2>TradeHub</h2>
+      <p>Secure and Convenient Trading Platform</p>
+      <button>READ MORE</button>
+    </div>
+  </section>
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <h2>FEATURES</h2>
+    <div class="features__content">
+      <div class="features__item">
+        <img src="./img/escrow_service.png" alt="">
+        <div class="features__title">
+          <h3>ESCROW SERVICES</h3>
+        </div>
+        <div class="features__details">
+          <p>Escrow services provide a secure platform for intermediary transactions by holding funds in a neutral
+            account until the transaction is completed. This protects both the buyer and the seller from fraud and
+            ensures that the transaction is completed as agreed. The benefit of this feature for TradeHub users is that
+            it provides added security and peace of mind when trading.</p>
+        </div>
+      </div>
+      <div class="features__item">
+        <img src="./img/payment.png" alt="">
+        <div class="features__title">
+          <h3>MULTIPLE PAYMENT OPTIONS</h3>
+        </div>
+        <div class="features__details">
+          <p>TradeHub offers multiple payment options for users, including credit/debit cards, bank transfers,
+            e-wallets, and other popular payment methods. This gives users the flexibility to choose a payment method
+            that works best for them, making the trading experience more convenient.</p>
+        </div>
+      </div>
+      <div class="features__item">
+        <img src="./img/dispute.png" alt="">
+        <div class="features__title">
+          <h3>DISPUTE RESOLUTION SYSTEM</h3>
+        </div>
+        <div class="features__details">
+          <p>In the event of a dispute between a buyer and a seller, TradeHub's dispute resolution system provides a
+            fair and transparent process to resolve the issue. This system includes an impartial mediator who can review
+            the case and make a final decision. The benefit of this feature for TradeHub users is that it provides a
+            fair and efficient way to resolve disputes, reducing the risk of fraud and increasing trust in the platform.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- MARKETPLACE -->
+  <section class="marketplace" id="marketplace">
+    <h2>MARKETPLACE</h2>
+    <div class="marketplace__content">
+      <div class="marketplace__text">
+        <h3>Buy and Sell Goods and Services with Ease</h3>
+        <p>Join the TradeHub Community Today</p>
+        <hr>
+        <button class="btn">Join Now</button>
+      </div>
+    </div>
+  </section>
+  <!-- LOGISTIC -->
+  <section class="logistic" id="logistic">
+    <h2>LOGISTIC</h2>
+    <div class="logistic__content">
+      <div class="logistic__text">
+        <h5>Safe and Secure Delivery of Your Goods</h5>
+        <p>Track Your Delivery with Ease</p>
+        <button class="btn">Learn More</button>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>CONTACT</h2>
+    <div class="contact__form">
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email">
+        <input type="tel" placeholder="Phone">
+        <textarea cols="30" rows="10" placeholder="Message"></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+    <div class="contact__map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.7333963104024!2d108.25016631453802!3d15.975293088939024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142108997dc971f%3A0x1295cb3d313469c9!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiB2w6AgVHJ1eeG7gW4gdGjDtG5nIFZp4buHdCAtIEjDoG4!5e0!3m2!1svi!2s!4v1676195476160!5m2!1svi!2s"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contact__info">
+      <div class="contact__item">
+        <i class="fa fa-home"></i>
+        <p>Đà Nẵng</p>
+        <p>Quảng Nam</p>
+      </div>
+      <div class="contact__item">
+        <i class="fa fa-phone"></i>
+        <p>0773605741</p>
+        <p>0383123004</p>
+      </div>
+      <div class="contact__item">
+        <i class="fa fa-envelope-open"></i>
+        <p>tanh11704@gmail.com</p>
+        <p>anhtp.22it@vku.udn.vn</p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
